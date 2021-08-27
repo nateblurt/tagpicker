@@ -1,0 +1,121 @@
+* { margin:0; padding:0; }
+#treeHeader {
+    display:inline-block;
+    position:fixed;
+    width:100vw;
+    top:0;
+    left:0;
+    height:10vw;
+    z-index:20;
+}
+#treeHeader {
+    background-color:#8af;
+    display:inline-block;
+    height:5vw;
+    width:100vw;
+    top:0vw;
+    height:10vw;
+    font-size:7vw;
+    line-height:10vw;
+    text-align:center;
+    z-index:20;
+    position:fixed;
+}
+#treeFooter {
+    padding:1vw;
+    background-color:#8af;
+    display:inline-block;
+    font-family:Arial;
+    font-size:3vw;
+    height:5vw;
+    width:100vw;
+    bottom:0vw;
+    height:20vw;
+    text-align:center;
+    z-index:20;
+    position:fixed;
+}
+#treeContainer {
+    margin-top:11vw;
+    margin-bottom:21vw;
+}
+details {
+    left:1vw;
+    right:1vw;
+    margin:1vw;
+    padding:1vw;
+    background-color:#aaa;
+}
+.categorySummary {
+    position:relative;
+    padding:1vw;
+    margin:1vw;
+    background-color:blue;
+}
+.categoryDetails {
+    position:relative;
+    background-color:red;
+}
+.categoryName {
+    position:absolute;
+    display:inline-block;
+}
+.categoryCount {
+    position:absolute;
+    display:inline-block;
+    right:8vw;
+}
+.categoryCheckbox {
+    position:absolute;
+    display:inline-block;
+    right:2vw;
+    width:5vw;
+    height:5vw;
+}
+
+.tagElementContainer {
+    position:relative;
+    padding:1vw;
+    margin:1vw;
+    background-color:#eee;
+}
+.tagElementName {
+    display:inline-block;
+    width:50vw;
+}
+.tagElementCount {
+    position:absolute;
+    display:inline-block;
+    right:8vw;
+}
+.tagElementCheckbox {
+    position:absolute;
+    display:inline-block;
+    right:1vw;
+    width:5vw;
+    height:5vw;
+}
+#copyToolTip {
+    display:none;
+    background-color:#aec;
+    position:fixed;
+    padding:1vw;
+    width:60vw;
+    left:20vw;
+    top:40vh;
+    text-align:center;
+    font-family:Arial;
+    font-size:3vw;
+    z-index:100;
+    border-radius:1vw;
+}
+#darkOverlay {
+    display:none;
+    top:0px;
+    z-index:99;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    background-color:black;
+    opacity:0.5;
+}
